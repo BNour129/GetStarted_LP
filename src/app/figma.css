@@ -47,6 +47,13 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
 }
 
+.brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1b1b1b;
+}
+
 /* ===== Button Styles ===== */
 .button {
   display: flex;
@@ -109,6 +116,23 @@ h1, h2, h3, h4, h5, h6, p {
 .hero-buttons {
   display: flex;
   gap: 16px;
+}
+
+/* ===== About Section ===== */
+.about {
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: #ffffff;
+}
+
+.about p {
+  max-width: 780px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 /* ===== Section Titles ===== */
@@ -184,6 +208,13 @@ h1, h2, h3, h4, h5, h6, p {
   flex-wrap: wrap;
 }
 
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 160px;
+}
+
 .footer h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -249,4 +280,15 @@ h1, h2, h3, h4, h5, h6, p {
   gap: 16px;
   width: 100%;
   max-width: 480px;
+}
+
+/* ===== CTA Section ===== */
+.cta {
+  background: #f5f3ea;
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
 }

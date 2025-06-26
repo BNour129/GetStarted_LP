@@ -1,19 +1,26 @@
 /* ===== Global ===== */
 body {
   background: #ffffff;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
   color: #1b1b1b;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
 /* ===== Container Layout ===== */
 .container {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -45,6 +52,13 @@ h1, h2, h3, h4, h5, h6, p {
   text-transform: capitalize;
   color: #1b1b1b;
   text-decoration: none;
+}
+
+.brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1b1b1b;
 }
 
 /* ===== Button Styles ===== */
@@ -111,9 +125,26 @@ h1, h2, h3, h4, h5, h6, p {
   gap: 16px;
 }
 
+/* ===== About Section ===== */
+.about {
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: #ffffff;
+}
+
+.about p {
+  max-width: 780px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 /* ===== Section Titles ===== */
 .section-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 35px;
   color: #000;
@@ -121,7 +152,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section-subtitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 22px;
   color: #a28231;
@@ -155,7 +186,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: 1px solid #c8c8c8;
   border-radius: 5px;
   padding: 12px 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: -0.01em;
@@ -184,8 +215,15 @@ h1, h2, h3, h4, h5, h6, p {
   flex-wrap: wrap;
 }
 
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 160px;
+}
+
 .footer h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 20px;
@@ -193,7 +231,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer p,
 .footer a {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #000;
@@ -213,4 +251,51 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 50%;
   position: absolute;
   transform: rotate(12deg);
+}
+
+/* ===== Features Section ===== */
+.features {
+  position: relative;
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background: #ffffff;
+}
+
+.card-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== Contact Section ===== */
+.contact {
+  padding: 96px 64px;
+  background: #f5f3ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 480px;
+}
+
+/* ===== CTA Section ===== */
+.cta {
+  background: #f5f3ea;
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
 }

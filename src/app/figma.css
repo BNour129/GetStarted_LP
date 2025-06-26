@@ -214,3 +214,39 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   transform: rotate(12deg);
 }
+
+/* ===== Features Section ===== */
+.features {
+  position: relative;
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background: #ffffff;
+}
+
+.card-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== Contact Section ===== */
+.contact {
+  padding: 96px 64px;
+  background: #f5f3ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 480px;
+}

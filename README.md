@@ -27,6 +27,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 Stylesheets are processed with Tailwind CSS and `autoprefixer` via PostCSS so you get consistent, vendor-prefixed CSS in all modern browsers.
 
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

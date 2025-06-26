@@ -14,11 +14,20 @@ pnpm dev
 bun dev
 ```
 
+This project requires **Node.js 18** or newer. If you use `nvm`, run `nvm use` to
+switch to the correct version before building or running the app. After installing
+dependencies with `npm install`, run `npm run build` to ensure the app compiles
+successfully.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+Stylesheets are processed with Tailwind CSS and `autoprefixer` via PostCSS so you get consistent, vendor-prefixed CSS in all modern browsers.
+
+This project uses the **App Router** (the `app` directory) instead of the older `pages` folder. Ensure you don't have a `pages` directory in the project, otherwise Next.js will throw a conflict during build.
 
 ## Learn More
 

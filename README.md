@@ -27,6 +27,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 Stylesheets are processed with Tailwind CSS and `autoprefixer` via PostCSS so you get consistent, vendor-prefixed CSS in all modern browsers.
 
+This project uses the **App Router** (the `app` directory) instead of the older `pages` folder. Ensure you don't have a `pages` directory in the project, otherwise Next.js will throw a conflict during build.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

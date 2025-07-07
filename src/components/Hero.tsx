@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Button from './Button';
+import heroImage from '@/assets/frames/Frame 20112.png';
 
 export default function Hero() {
   return (
     <section className="container grid md:grid-cols-2 gap-8 py-24 items-center" id="hero">
       <div className="space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight font-poppins">
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight font-poppins">
           Your Partner in Turning
           <br />Ideas into Future-Shaping
           <br />Startup
@@ -17,7 +18,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative h-80 md:h-[500px]">
-        <Image src="/screenshot1.png" alt="device" fill className="object-contain rounded-xl shadow-lg" />
+        <Image src={heroImage} alt="Illustration of an app interface" fill className="object-contain rounded-xl shadow-lg" />
       </div>
     </section>
   );

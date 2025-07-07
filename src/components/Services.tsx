@@ -1,10 +1,11 @@
 import SectionHeading from './SectionHeading';
 import Image from 'next/image';
+import serviceIcon from '@/assets/icons/icon 100.png';
 
 const services = [
-  { icon: '/src/assets/icons/icon 100.png', title: 'Launch', desc: 'From idea to market, we guide you at every step.' },
-  { icon: '/src/assets/icons/icon 100.png', title: 'Scale', desc: 'Grow your startup with expert mentorship.' },
-  { icon: '/src/assets/icons/icon 100.png', title: 'Network', desc: 'Connect with investors and peers around the globe.' },
+  { icon: serviceIcon, title: 'Launch', desc: 'From idea to market, we guide you at every step.' },
+  { icon: serviceIcon, title: 'Scale', desc: 'Grow your startup with expert mentorship.' },
+  { icon: serviceIcon, title: 'Network', desc: 'Connect with investors and peers around the globe.' },
 ];
 
 export default function Services() {

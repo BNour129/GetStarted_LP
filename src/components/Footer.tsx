@@ -19,8 +19,8 @@ export default function Footer() {
           </ul>
         </div>
         <div className="flex gap-4 items-start">
-          <Image src="/next.svg" alt="LinkedIn" width={32} height={32} className="bg-primary rounded-full p-1" />
-          <Image src="/next.svg" alt="Twitter" width={32} height={32} className="bg-primary rounded-full p-1" />
+          <Image src="/next.svg" alt="LinkedIn icon" width={32} height={32} className="bg-primary rounded-full p-1" />
+          <Image src="/next.svg" alt="Twitter icon" width={32} height={32} className="bg-primary rounded-full p-1" />
         </div>
       </div>
       <div className="text-center text-sm mt-8 border-t border-pale-gold pt-4">

@@ -1,5 +1,6 @@
 import SectionHeading from './SectionHeading';
 import Image from 'next/image';
+import aboutImage from '@/assets/frames/Frame 20115.png';
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
         </p>
       </div>
       <div className="order-1 md:order-2 flex justify-center">
-        <Image src="/screenshot2.png" alt="about" width={400} height={300} className="rounded-xl" />
+        <Image src={aboutImage} alt="Team collaboration illustration" width={400} height={300} className="rounded-xl" />
       </div>
     </section>
   );

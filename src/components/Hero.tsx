@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Button from './Button';
+import heroImage from '@/assets/frames/Frame 20112.png';
 
 export default function Hero() {
   return (
@@ -17,7 +18,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative h-80 md:h-[500px]">
-        <Image src="/screenshot1.png" alt="device" fill className="object-contain rounded-xl shadow-lg" />
+        <Image src={heroImage} alt="device" fill className="object-contain rounded-xl shadow-lg" />
       </div>
     </section>
   );
